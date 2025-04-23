@@ -7,17 +7,20 @@ import java.time.LocalDate;
 
 public class MainAluno {
     public static void main(String[] args) {
-
-        Aluno aluno1 = new Aluno(565592, "André Emygdio", 2006);
-        Aluno aluno2 = new Aluno(561995, "Gabriel Lourenço Müller", 2006);
-
-        Aluno aluno3 = new Aluno();
-        Aluno aluno4 = new Aluno();
+        Aluno aluno1;
+        Aluno aluno2;
+        Aluno aluno3;
+        Aluno aluno4;
 
         LocalDate dataAtual = LocalDate.now();
 
         String auxiliar;
         try {
+             aluno1 = new Aluno(565592, "André Emygdio", 2004);
+             aluno2 = new Aluno(561995, "Gabriel Lourenço Müller", 2006);
+             aluno3 = new Aluno();
+             aluno4 = new Aluno();
+
             auxiliar = JOptionPane.showInputDialog("Digite o RM do aluno 3: ");
                 aluno3.setRegistroMatricula(Integer.parseInt(auxiliar));
             auxiliar = JOptionPane.showInputDialog("Digite o nome completo do aluno 3: ");
