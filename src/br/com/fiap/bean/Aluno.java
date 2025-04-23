@@ -12,9 +12,9 @@ public class Aluno {
     }
 
     public Aluno(int registroMatricula, String nomeCompleto, int anoDeNascimento) {
-        this.registroMatricula = registroMatricula;
+        setRegistroMatricula(registroMatricula);
         this.nomeCompleto = nomeCompleto;
-        this.anoDeNascimento = anoDeNascimento;
+        setAnoDeNascimento(anoDeNascimento);
     }
 
     public int getRegistroMatricula() {
