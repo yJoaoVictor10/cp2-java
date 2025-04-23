@@ -47,8 +47,8 @@ public class Aluno {
 
     public void setAnoDeNascimento(int anoDeNascimento) {
         try {
-            LocalDate anoAtual = LocalDate.now();
-            if (anoDeNascimento >= 1945 && anoDeNascimento <= anoAtual.getYear()){
+            LocalDate dataAtual = LocalDate.now();
+            if (anoDeNascimento >= 1945 && anoDeNascimento <= dataAtual.getYear()){
                 this.anoDeNascimento = anoDeNascimento;
             }else{
                 throw new Exception("O ano de nascimento deve ser maior ou igual a 1945 e menor ou igual ao ano atual.");
