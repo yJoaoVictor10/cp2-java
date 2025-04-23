@@ -59,8 +59,6 @@ public class Aluno {
     }
 
     public int calcularIdade(LocalDate dataAtual){
-        int anoAtual = dataAtual.getYear();
-        int idade = anoAtual - getAnoDeNascimento();
-        return idade;
+        return dataAtual.getYear() - getAnoDeNascimento();
     }
 }
