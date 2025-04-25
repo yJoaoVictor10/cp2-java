@@ -1,3 +1,10 @@
+/*
+André Emygdio Ferreira | RM: 565592
+Gabriel Lourenço Müller | RM: 561995
+Gustavo Bardy Casimiro | RM: 566136
+João Victor Nascimento Adão | RM: 563409
+*/
+
 package br.com.fiap.main;
 
 import br.com.fiap.bean.Aluno;
